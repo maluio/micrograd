@@ -8,8 +8,23 @@ A tiny Autograd engine (with a bite! :)). Implements backpropagation (reverse-mo
 ### Installation
 
 ```bash
+# Note: This does not include micrograd itself
+pip install -r requirements
+```
+
+When you want use micrograd as a package from pypi:
+
+```bash
 pip install micrograd
 ```
+
+When you want to play around with the micrograd source code:
+
+```bash
+pip install -e .
+```
+
+**Please note**: You need to `Restart Kernel` in Jupyter after every change to the source code.
 
 ### Example usage
 
